@@ -6,7 +6,10 @@ int main()
 
 {
 int a,b,wynik;
-cin>>a>>b;
+cout<<"Podaj a: ";
+cin>>a;
+cout<<"Podaj b: ";
+cin>>b;
 
 if (a==0)
 {
@@ -19,7 +22,7 @@ else
 
 
 
-cout<<wynik;
+cout<<"Miejcem zerowym tej funkcji jest "<<wynik;
 
 return 0;
 }
