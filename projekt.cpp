@@ -11,14 +11,7 @@ cin>>a;
 cout<<"Podaj b: ";
 cin>>b;
 
-if (a==0)
-{
-	wynik=(-b);
-}
-else
-{
-	wynik=(-b)/a;
-}
+
 
 
 
